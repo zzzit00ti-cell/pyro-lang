@@ -1,0 +1,14 @@
+import math
+from math import pi, sqrt as square_root
+
+func say_hello():
+    print("Hello from Pyro inside a .pyro file!")
+    print("We can use imported modules like math.")
+    print("Pi is:")
+    print(pi)
+end
+
+func compute(x):
+    # This pipeline should work
+    return x |> square_root
+end
